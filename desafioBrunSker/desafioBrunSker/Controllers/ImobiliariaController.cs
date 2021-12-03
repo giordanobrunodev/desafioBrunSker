@@ -35,5 +35,20 @@ namespace desafioBrunSker.Controllers
 
             return Ok(_imobiliariaService.Create(imobiliaria));
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete([FromRoute] int id)
+        {
+            _imobiliariaService.Delete(id);
+            return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Update([FromRoute] int id, [FromBody] ImobiliariaDTO imobiliariaDTO)
+        {
+            Imobiliaria imobiliaria = imobiliariaDTO.ToEntity();
+
+            return Ok(_imobiliariaService.Update(id, imobiliaria));
+        }
     }
 }
