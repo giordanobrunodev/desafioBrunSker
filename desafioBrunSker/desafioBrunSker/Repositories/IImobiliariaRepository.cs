@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using desafioBrunSker.Models;
 
 namespace desafioBrunSker.Repositories

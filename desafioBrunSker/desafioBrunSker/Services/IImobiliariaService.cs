@@ -1,13 +1,14 @@
+using System.Collections.Generic;
 using desafioBrunSker.Models;
 
 namespace desafioBrunSker.Services
 {
     public interface IImobiliariaService
     {
-        Task<List<Imobiliaria>> GetAllAsync(CancellationToken cancellationToken = default);
-        Task<Imobiliaria> GetByIdAsync(int id, CancellationToken cancellationToken = default);
-        Task<Imobiliaria> CreateAsync(Imobiliaria imobiliaria, CancellationToken cancellationToken = default);
-        Task<Imobiliaria> UpdateAsync(int id, Imobiliaria imobiliaria, CancellationToken cancellationToken = default);
+        List<Imobiliaria> GetAll();
+        Imobiliaria GetById(int id);
+        Imobiliaria Create(Imobiliaria imobiliaria);
+        Imobiliaria Update(int id, Imobiliaria imobiliaria);
         void Delete(int id);
     }
 }

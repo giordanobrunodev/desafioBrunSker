@@ -5,11 +5,11 @@ namespace desafioBrunSker.Repositories
 {
     public class MysqlContext : DbContext
     {
-        public DbSet<Imobiliaria> Imobiliarias {get; set;}
 
-        public MysqlContext() : base() {}
+        public MysqlContext(): base() {}
 
-        public MysqlContext(DbContextOptions<MysqlContext> options) : base(options){}
-        
+        public MysqlContext(DbContextOptions<MysqlContext> options): base(options){}
+
+        public DbSet<Imobiliaria>? Imobiliarias {get; set;}
     }
 }

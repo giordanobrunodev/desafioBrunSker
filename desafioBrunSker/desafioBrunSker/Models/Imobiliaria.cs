@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using desafioBrunSker.DTOs;
 
 namespace desafioBrunSker.Models
 {
@@ -12,5 +13,18 @@ namespace desafioBrunSker.Models
         [Column("estado")] public string Estado { get; set; }
         [Column("bairro")] public string Bairro { get; set; }
         [Column("proprietario")] public string Proprietario { get; set; }
+
+        public ImobiliariaDTO ToDTO()
+        {
+            return new ImobiliariaDTO{
+                Id = Id,
+                Cep = Cep,
+                Logradouro = Logradouro,
+                Cidade = Cidade,
+                Estado = Estado,
+                Bairro = Bairro,
+                Proprietario = Proprietario
+            };
+        }
     }
 }

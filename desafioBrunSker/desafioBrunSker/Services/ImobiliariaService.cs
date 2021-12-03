@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using desafioBrunSker.Models;
 using desafioBrunSker.Repositories;
 
@@ -12,7 +13,7 @@ namespace desafioBrunSker.Services
             _repository = repository;
         }
 
-        public async Task<Imobiliaria> CreateAsync(Imobiliaria imobiliaria, CancellationToken cancellationToken = default)
+        public Imobiliaria Create(Imobiliaria imobiliaria)
         {
             return _repository.Create(imobiliaria);
         }
@@ -22,17 +23,17 @@ namespace desafioBrunSker.Services
             _repository.Delete(id);
         }
 
-        public async Task<List<Imobiliaria>> GetAllAsync(CancellationToken cancellationToken = default)
+        public List<Imobiliaria> GetAll()
         {
             return _repository.GetAll();
         }
 
-        public async Task<Imobiliaria> GetByIdAsync(int id, CancellationToken cancellationToken = default)
+        public Imobiliaria GetById(int id)
         {
             return _repository.GetById(id);
         }
 
-        public async Task<Imobiliaria> UpdateAsync(int id, Imobiliaria imobiliaria, CancellationToken cancellationToken = default)
+        public Imobiliaria Update(int id, Imobiliaria imobiliaria)
         {
            return _repository.Update(id, imobiliaria);
         }
