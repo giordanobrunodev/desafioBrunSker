@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PLIbipMcBHcQ+lmUxq9p7GZ21e3vi2qgPg5lvd+RAcvIHIpPsnYCYvmMuUUYUSf7tdO2phaf1CL5zd36v2UXGg==",
+  "dgSpecHash": "80x12auFo5n8QvQbeFNyQj/8tRKFABkw06znWfMhjAu9etSLhzrEqYNLHMSNfAdPh3ZfmZMga+YE+o56VV728Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Giordano\\OneDrive\\Área de Trabalho\\Estudos DEV, Prog\\Desafios e testes\\desafioBrunSker\\desafioBrunSker\\desafioBrunSker\\desafioBrunSker.csproj",
   "expectedPackageFiles": [
@@ -28,13 +28,15 @@
     "C:\\Users\\Giordano\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.0\\pomelo.entityframeworkcore.mysql.3.2.0.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
+    "C:\\Users\\Giordano\\.nuget\\packages\\refit\\6.1.15\\refit.6.1.15.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Giordano\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\Giordano\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\Giordano\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\Giordano\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
